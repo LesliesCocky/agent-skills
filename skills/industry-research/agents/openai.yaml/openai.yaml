@@ -1,0 +1,5 @@
+interface:
+  display_name: "外贸行业调研报告"
+  short_description: "面向出口决策，交付真实数据图表、逐项信源、国家比较与买家渠道建议"
+policy:
+  allow_implicit_invocation: true
