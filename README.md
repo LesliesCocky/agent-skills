@@ -7,13 +7,16 @@
 | 技能 | 说明 |
 | --- | --- |
 | [阿里国际站产品视觉策划](skills/alibaba-product-visual-planning/SKILL.md) | 分析产品图片、文档和参考图，规划主图、卖点附图和场景应用图，输出设计思路与执行方案。 |
+| [外贸行业调研](skills/industry-research/SKILL.md) | 为中国出口企业研究目标市场、进口需求、竞争、买家渠道、准入与成本，产出带数据图表和来源的调研报告。 |
+
+调用名：`$industry-research`。技能依赖的参考资料位于同目录的 `references/` 文件夹。OpenAI 专用配置位于 `agents/openai.yaml`。
 
 该技能只输出方案，不直接生成或修改最终图片。技能正文保留作者原稿。
 
 ## 下载与安装
 
 1. 在仓库首页点击 **Code → Download ZIP**，解压。
-2. 将 `skills/alibaba-product-visual-planning` 整个文件夹复制到支持 Agent Skills 的工具的技能目录。
+2. 将需要的技能文件夹（如 `skills/alibaba-product-visual-planning` 或 `skills/industry-research`）复制到支持 Agent Skills 的工具的技能目录。
 3. 对于 Codex，可复制到个人技能目录 `~/.codex/skills/`；如果安装环境采用其他技能目录，请遵循该环境的配置。
 4. 重新打开会话或刷新技能列表，并确认技能已被识别。
 
